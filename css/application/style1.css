@@ -1,0 +1,556 @@
+
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+html,body{
+	padding:0;
+	margin:0;
+	background:#fff;
+font-family: 'Roboto', sans-serif;
+ }
+body a{
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	text-decoration:none;
+}
+body a:hover {
+	text-decoration: none;
+}
+
+body a:focus, a:hover {
+	text-decoration: none;
+}
+input[type="email"],input[type="text"],input[type=password],
+input[type="button"],input[type="submit"],textarea{
+font-family: 'Roboto', sans-serif;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;	
+	padding:0;
+font-family: 'Roboto', sans-serif;
+	letter-spacing:1px;
+}	
+p{
+	margin:0;
+	padding:0;
+	letter-spacing:1px;
+font-family: 'Roboto', sans-serif;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+/*-- //Reset-Code --*/
+body {
+    background: url(../images/b3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+  .appointment-w3 {
+    width: 42%;
+    margin: 30px auto 30px;
+    background-color: rgba(0, 0, 0, 0.79);
+    padding: 40px 40px;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.42);
+}
+h1{  padding-top: 31px;}
+h1.header-w3ls {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 11px;
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.42);
+}
+.personal h2,.information h3,.education h3{font-size:30px;
+                                          color:#fff;
+										   text-align:center;
+										   margin:.5em 0;
+										   letter-spacing:3px;
+										   }
+ .personal h2{margin-top:0em;}
+.form-right-w3ls
+{float:right;
+	padding-right:0px;}
+.form-left-w3l{
+float:left;
+	padding-left:0px;}	
+
+	.form-right-w3ls,.form-left-w3l{ width:48%;
+  }
+
+.form-left-w3l input[type="text"]
+,.form-right-w3ls input[type="text"]
+,.form-left-w3l input[type="email"]
+,.form-control-w3l textarea,.form-right-w3ls  input[type="date"]
+,.form-add-w3ls input[type="text"]{
+    color: #000;
+    outline: none;
+    font-size: 1em;
+    padding: .8em 1em;
+    margin-bottom: 2em;
+    border: none;
+	 margin: 5px 0px 16px;
+    border-bottom: solid 2px #23b7bd;
+    -webkit-appearance: none;
+    display: inline-block;
+	    background: rgba(255, 255, 255, 0.39);
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+	box-shadow:2px 3px rgba(0, 0, 0, 0.42);
+}
+ select.form-control {
+    outline: none;
+    font-size: 1em;
+    padding:0.8em 1em;
+    width: 100%;
+	height:45px;
+    margin: 5px 0px 16px;
+	border-radius:0;
+     background: rgba(255, 255, 255, 0.39);
+    color: #000;
+    border: none;
+	    border-bottom: solid 2px #23b7bd;
+	box-shadow:2px 3px rgba(0, 0, 0, 0.42);
+	   transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #000;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #000;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #000;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+}
+textarea{
+    height: 134px;
+    padding: 1em;
+	overflow: hidden;
+	resize:none;
+}
+.form-left-w3l p,.form-right-w3ls p,.form-control-w3l p,.form-add-w3ls p {
+    color: #23b7bd;
+    font-size: 17px;
+    letter-spacing: .5px;
+    text-transform: capitalize;
+}
+.form-left-w3l input[type="text"]:hover, .form-left-w3l input[type="text"]:focus, .form-add-w3ls input[type="text"]:hover,.form-add-w3ls input[type="text"]:focus,.form-right-w3ls  input[type="text"]:hover,.form-right-w3ls  input[type="text"]:focus,.form-left-w3l input[type="email"]:hover
+,.form-left-w3l input[type="email"]:focus, .form-control-w3l textarea:hover, .form-control-w3l textarea:focus, .form-right-w3ls select:hover, .form-right-w3ls select:focus, .form-left-w3l select:hover, .form-left-w3l select:focus{background:#ffffff;
+color:#000;
+outline:none;}
+input[type="submit"] {
+    text-transform: uppercase;
+       background: #fff;
+    color: #000000;
+    padding: .7em 0em;
+    border: none;
+    font-size: 1em;
+    outline: none;
+    width: 100%;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: 1em;
+    cursor: pointer;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+	input[type="submit"]:hover {
+    color: #fff;
+    background: #23b7bd;
+}
+.copy{padding-bottom:30px;}
+.copy p{
+    margin:0em;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 1px;
+}	
+.copy p a{
+	  color:#33e8ff;
+	  text-decoration:none;
+      }	 
+.copy p a:hover{color:#fff;}
+/*--responsive--*/
+@media(max-width:1920px){
+.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"] {
+    width: 91.3%;
+}
+.form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+    width: 96%;
+}
+}
+@media(max-width:1680px){
+	.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"] {
+    width: 90.3%;
+}
+.form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+        width: 95.3%;
+}
+}
+@media(max-width:1600px){
+.form-left-w3l input[type="text"],.form-right-w3ls input[type="text"],.form-left-w3l input[type="email"]
+,.form-right-w3ls  input[type="date"]{
+	width:90%;
+	}
+.form-control-w3l textarea,.form-add-w3ls input[type="text"]{
+	width:95%;
+	}	
+}
+@media(max-width:1440px){
+	.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"] {
+    width: 90.2%;
+}
+.form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+    width: 95.3%;
+}
+.appointment-w3 {
+    width: 50%;
+}	
+}
+@media(max-width:1366px){
+	.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"] {
+    width: 91%;
+}
+.form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+    width: 95.8%;
+}
+.appointment-w3 {
+    width: 57%;
+}	
+}
+@media(max-width:1280px){
+	.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"] {
+    width: 91.2%;
+}
+.form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+    width: 95.9%;
+}
+.appointment-w3 {
+    width: 61%;
+}	
+}
+@media(max-width:1080px){
+	.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"] {
+    width: 89.5%;
+}
+.form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+    width: 95%;
+}
+h1.header-w3ls {
+    font-size: 47px;
+    letter-spacing: 7px;
+}	
+.appointment-w3 {
+    width: 61%;
+}
+}
+@media(max-width:1050px){
+	.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"] {
+    width: 89.9%;
+}
+.form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+    width: 95.2%;
+}
+.appointment-w3 {
+    width: 66%;
+}	
+
+}
+@media(max-width:1024px){
+.appointment-w3 {
+    width: 70%;
+}
+.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"] {
+    width: 90.2%;
+}
+.form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+    width: 95.5%;
+}	
+}
+@media(max-width:991px){
+h1.header-w3ls {
+    font-size: 45px;
+    letter-spacing: 6px;
+}
+.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"] {
+    width: 90.2%;
+}
+.form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+    width: 95.2%;
+}	
+}
+@media(max-width:900px){
+.appointment-w3 {
+    width: 73%;
+}
+.form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+    width: 95%;
+}	
+.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"] {
+    width: 89.5%;
+}
+}
+@media(max-width:800px){
+h1.header-w3ls {
+    font-size: 42px;
+    letter-spacing: 4px;
+}
+.appointment-w3 {
+    width: 75%;
+}	
+.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"] {
+    width: 88.5%;
+}
+.form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+    width: 94.5%;
+}
+}
+@media(max-width:768px){
+.appointment-w3 {
+    padding: 31px 31px;	
+	width: 75%;
+}
+.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"] {
+    width: 88%;
+}
+.form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+    width: 94.2%;
+}
+.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-control-w3l textarea, .form-right-w3ls input[type="date"],.form-add-w3ls input[type="text"] {
+    padding: .5em 1em;
+}
+select.form-control{
+     height: 36px;
+	   padding: .5em 1em;
+}
+.form-right-w3ls {
+    padding-left:0em;
+}
+.form-left-w3l {
+    padding-right: 0em;
+}
+}
+@media(max-width:767px){
+ .appointment-w3 {
+	width: 80%;
+}	
+.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"] {
+    width: 89%;
+}
+.form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+    width: 94.5%;
+}
+}
+@media(max-width:736px){
+.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-control-w3l textarea, .form-right-w3ls input[type="date"] {
+ 
+    margin: 5px 0px 11px;
+}	
+select.form-control {
+	 
+    margin: 5px 0px 11px;
+}
+.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"] {
+    width: 88%;
+}
+textarea {
+    height: 115px;
+}
+
+}
+@media(max-width:667px){
+h1.header-w3ls {
+    font-size: 38px;
+    letter-spacing: 3px;
+	    padding: 27px 10px 0px;
+}	
+.personal h2, .information h3, .education h3 {
+    font-size: 28px;
+}
+.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"] {
+    width: 87%;
+}
+.form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+    width: 93.8%;
+}
+}
+@media(max-width:640px){
+.appointment-w3 {
+    width: 85%;
+}	
+}
+@media(max-width:600px){
+h1.header-w3ls {
+    font-size: 36px;
+}
+.appointment-w3 {
+    padding: 26px 26px;
+}
+.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"] {
+    width: 86.5%;
+}
+.form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+    width: 93.5%;
+}	
+}
+@media(max-width:568px){
+	.form-right-w3ls, .form-left-w3l{float:none;
+	 width:100%;}
+h1.header-w3ls {
+    font-size: 32px;
+}
+.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"],
+.form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+    width: 93%;
+}
+.personal h2, .information h3, .education h3 {
+    font-size: 26px;
+}
+.appointment-w3 {
+    width: 87%;
+}
+.copy p {
+    padding: 0 9px;
+    line-height: 31px;
+}	
+}
+@media(max-width:480px){
+h1.header-w3ls {
+    font-size: 32px;
+}
+.personal h2, .information h3, .education h3 {
+    font-size: 22px;
+}
+.form-left-w3l p, .form-right-w3ls p, .form-control-w3l p {
+    font-size: 15px;
+}
+h1.header-w3ls {
+	line-height:40px;
+    padding: 27px 20px 0px;
+}	
+.appointment-w3 {
+    width: 81%;
+}
+.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"],
+.form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+    width: 91.2%;
+}
+.copy p {
+    padding: 0px 16px;
+}
+}
+@media(max-width:440px){
+	h1.header-w3ls {
+    font-size: 30px;
+}
+.appointment-w3 {
+    width: 81%;
+}
+textarea {
+    height: 109px;
+}
+.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"],
+.form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+    width: 90.5%;
+}
+.copy p {
+    padding: 0px 20px;
+}
+}
+@media(max-width:414px){
+	
+	h1.header-w3ls {
+    letter-spacing: 2px;
+	}
+	.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"], .form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+    width: 89.5%;
+}
+}
+@media(max-width:384px){
+h1.header-w3ls {
+    letter-spacing: 1px;
+}
+.education h3 {
+    font-size: 19px;
+}	
+.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"], .form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+    width: 89%;
+}
+	.appointment-w3 {
+    width: 75%;
+}
+}
+@media(max-width:375px){
+	.appointment-w3 {
+    width: 75%;
+}
+.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"], .form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+    width: 88%;
+}	
+}
+@media(max-width:320px){
+.personal h2, .information h3, .education h3 {
+    font-size: 17px;
+	    letter-spacing: 2px;
+
+}	
+.form-left-w3l p, .form-right-w3ls p, .form-control-w3l p {
+    font-size: 13px;
+}
+h1.header-w3ls {
+    font-size: 25px;
+}
+.form-left-w3l input[type="text"], .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"], .form-right-w3ls input[type="date"], .form-control-w3l textarea, .form-add-w3ls input[type="text"] {
+    width: 86%;
+}
+}
+/*--//responsive--*/
